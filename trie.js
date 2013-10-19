@@ -1,8 +1,8 @@
 /* Trie.js
-     * A simple Trie implementation written in JS, with robust built in functions for managing strings
-     * Licensed under the MIT licence
-     * Created by Gurudayal Khalsa
-    */
+ * A simple Trie implementation written in JS, with robust built in functions for managing strings
+ * Licensed under the MIT licence
+ * Created by Gurudayal Khalsa
+*/
     function Trie(wordlist)
     {
         //the trie
