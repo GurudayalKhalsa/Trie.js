@@ -16,8 +16,7 @@ function Trie(wordlist)
         if(!string) return trie;
         var charsDone = "";
         var currentObj = trie;
-
-        for(var i in string)
+        for(var i = 0; i < string.length; i++)
         {
             var char = string[i];
             if(currentObj[char]) currentObj=currentObj[char];
@@ -47,8 +46,9 @@ function Trie(wordlist)
         if(typeof string !== "string" && string !== undefined) return [];
 
         var currentObj = this.getObject(string);
-
         if(typeof string === "string" && !currentObj) return [];
+
+
 
         currentObj = currentObj||trie;
         var strings = [];
@@ -72,7 +72,7 @@ function Trie(wordlist)
         //handle if string is array/object
         if(typeof string === "object") 
         {
-            for(var i in string) this.insert(string[i]);
+            for(var i = 0; i < string.length; i++) this.insert(string[i]);
             return true;
         }
 
@@ -81,7 +81,7 @@ function Trie(wordlist)
         var charsDone = "";
         var currentObj = trie;
 
-        for(var i in string)
+        for(var i = 0; i < string.length; i++)
         {
             var char = string[i];
 
@@ -221,7 +221,7 @@ function Trie(wordlist)
         var currentObj = root;
         var pastObjects = [];
 
-        for(var i in string)
+        for(var i = 0; i < string.length; i++)
         {
             var char = string[i];
             if(currentObj[char]) 
@@ -240,4 +240,3 @@ function Trie(wordlist)
         return JSON.parse(JSON.stringify(obj));
     }
 }
-
