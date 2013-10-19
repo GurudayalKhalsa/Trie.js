@@ -1,7 +1,5 @@
-
-*Trie.js - A Trie Implementation in Javascript*
-_______________________________________________
-
+Trie.js - A Trie Implementation in Javascript
+===============================
 
 - useful/fast for getting all strings starting with the query
 - all strings of the same character length take the same amount of time to retrieve (which is not long at all)
