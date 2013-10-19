@@ -6,7 +6,7 @@ Trie.js - A Trie Implementation in Javascript
 - practical use: Livesearch/autocomplete library for thousands of strings, quick finding
 
 
-**Usage**:
+###Usage:
 
     var trie = new Trie(["apple", "orange", "banana", "pear", "pineapple", "grape", "blueberry", "blackberry", "mango", "peach", "plum", "grapefruit"]);
     trie.get() -> returns the above array, sorted alphabetically
