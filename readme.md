@@ -1,5 +1,5 @@
 
-Trie.js - A Trie Implementation in Javascript 
+*Trie.js - A Trie Implementation in Javascript*
 _______________________________________________
 
 
