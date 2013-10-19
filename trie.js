@@ -44,7 +44,7 @@ function Trie(wordlist)
             return strings;
         }
 
-        if(typeof string !== "string" && string === undefined) return [];
+        if(typeof string !== "string" && string !== undefined) return [];
 
         var currentObj = this.getObject(string);
 
